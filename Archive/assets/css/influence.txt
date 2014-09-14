@@ -1,0 +1,21 @@
+List of the main category in the "influence.css" file
+
+1. Basic declaration
+2. Media Queries
+3. Typography - Headings, Body, Lists, Links, Colors
+4. Forms - Form with Icon, witout icon, large form
+5. Buttons - transparent buttons, extra large button,
+6. Helper Classes - spaces, hr, section, filling-section, small container
+7. Background - Background Color, Background Filter, Background Images
+8. Jumbotron / Header - Transparent Jumbotron
+9. Icons - Circle icons, Colors for Icons
+10. Icons Cover 
+11. Content Boxes
+12. Hover Content Boxes
+13. Thumbnails
+14. Navs - large tabs with icon, Filter Tabs
+15. Navbar
+16. Small Components  Knobs, Google Maps, Back To Top
+17. Animations - easeUp, easePulse, fromPocket
+18. Pricing Tables - 3 types
+19. Footer

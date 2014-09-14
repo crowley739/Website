@@ -1,0 +1,157 @@
+/*
+ * Theme name: Influence - One Page
+ * Description: Yellow Theme
+ * Version: 1.3
+ * Last update: 22.8. 2014
+ * Author: Jiri Cermak
+ * */
+
+ 
+@color: darken(#ecd06f, 5%);
+
+.sy-pager li.sy-active a,
+.bg-primary,
+.back-to-top:active,
+.circle-icons li:hover i,
+.btn-primary-trn:focus,
+.btn:focus.btn-primary-trn,
+.btn-primary-trn:hover,
+.btn:hover.btn-primary-trn 
+.navbar-default .navbar-nav > li > a.active:hover,
+.navbar-default .navbar-nav > li > a.active {
+    background-color: @color !important;
+    background: @color !important; 
+}
+ 
+.profile-circle:hover h3,
+a,
+.val,
+.val-v1,
+.back-to-top,
+.lg-tabs li a:hover,
+.lg-tabs li.active a,
+.content-box h4,
+.icon-u,
+.dark-icons i:hover,
+.circle-icons i,
+.i-primary i,
+.primary span,
+.features-list i {
+    color: @color;
+}
+ 
+.btn-primary-trn {
+    color: @color !important;
+    border-color: @color !important;
+}
+.btn-primary {
+    background-color: @color;
+    border-color: @color;
+}
+.top-part {
+    background: fade(@color, 60%);
+}
+a:hover {
+    color: darken(#1a99aa, 15%)
+}
+.widget .part-a i {
+    -webkit-box-shadow: 0 0 0 5px fade(@color, 50%);
+    box-shadow: 0 0 0 5px fade(@color, 50%);
+    background: @color;
+}
+.filter-tabs li.active:hover,
+.filter-tabs li.active {
+    background: @color !important;
+}
+/*==================
+ * Bootstrap v3.2
+ * =================
+ * */
+.btn-link:hover,
+.btn-link:focus,
+a:hover,
+a:focus {
+	color: darken(@color, 15%);
+}
+a.text-primary:hover {
+	color: darken(@color, 10%);
+}
+.label-primary[href]:hover,
+.label-primary[href]:focus,
+a.bg-primary:hover {
+	background-color: darken(@color, 10%);
+}
+a.list-group-item:hover,
+a.list-group-item:focus,
+.progress-bar,
+.label-primary,
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus,
+.bg-primary {
+	background-color: @color;
+}
+.panel-primary > .panel-heading,
+a.list-group-item.active,
+a.list-group-item.active:hover,
+a.list-group-item.active:focus,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary,
+.btn-primary,
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+	background-color: @color;
+	border-color: @color;
+}
+a.list-group-item.active > .badge,
+.nav-pills > .active > a > .badge,
+.text-primary,
+.btn-primary .badge,
+.btn-link { 
+	color: @color;
+}    
+.panel-primary ,
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active,
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+	border-color: @color;
+}
+.panel-primary > .panel-heading + .panel-collapse .panel-body {
+	border-top-color: @color;
+}
+.panel-primary > .panel-footer + .panel-collapse .panel-body {
+	border-bottom-color: @color;
+}
+
+@media (min-width: 768px) {
+    .navbar-inverse .navbar-nav > li > a.active::after {
+        border-bottom-color: @color; 
+    }
+}
+@media (min-width: 768px) {
+    .filter-tabs li:hover {
+        color: @color;
+    }
+    .navbar-inverse .navbar-nav > li.active > a::after {
+        border-bottom-color: @color;
+    }
+}

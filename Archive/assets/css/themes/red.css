@@ -1,0 +1,148 @@
+/*
+ * Theme name: Influence - One Page
+ * Description: Red Theme
+ * Version: 1.3
+ * Last update: 22.8. 2014
+ * Author: Jiri Cermak
+ * */
+.sy-pager li.sy-active a,
+.bg-primary,
+.back-to-top:active,
+.circle-icons li:hover i,
+.btn-primary-trn:focus,
+.btn:focus.btn-primary-trn,
+.btn-primary-trn:hover,
+.btn:hover.btn-primary-trn .navbar-default .navbar-nav > li > a.active:hover,
+.navbar-default .navbar-nav > li > a.active {
+  background-color: #df6c4f !important;
+  background: #df6c4f !important;
+} 
+.profile-circle:hover h3,
+a,
+.val,
+.val-v1,
+.back-to-top,
+.lg-tabs li a:hover,
+.lg-tabs li.active a,
+.content-box h4,
+.icon-u,
+.dark-icons i:hover,
+.circle-icons i,
+.i-primary i,
+.primary span,
+.features-list i {
+  color: #df6c4f;
+}
+.btn-primary-trn {
+  color: #df6c4f !important;
+  border-color: #df6c4f !important;
+}
+.btn-primary {
+  background-color: #df6c4f;
+  border-color: #df6c4f;
+}
+.top-part {
+  background: rgba(223, 108, 79, 0.6);
+}
+a:hover {
+  color: #105d68;
+}
+.widget .part-a i {
+  box-shadow: 0 0 0 5px rgba(223, 108, 79, 0.5);
+  background: #df6c4f;
+}
+.filter-tabs li.active:hover,
+.filter-tabs li.active {
+  background: #df6c4f !important;
+}
+/*==================
+ * Bootstrap v3.2
+ * =================
+ * */
+.btn-link:hover,
+.btn-link:focus,
+a:hover,
+a:focus {
+  color: #bf4223;
+}
+a.text-primary:hover {
+  color: #d44a27;
+}
+.label-primary[href]:hover,
+.label-primary[href]:focus,
+a.bg-primary:hover {
+  background-color: #d44a27;
+}
+a.list-group-item:hover,
+a.list-group-item:focus,
+.progress-bar,
+.label-primary,
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus,
+.bg-primary {
+  background-color: #df6c4f;
+}
+.panel-primary > .panel-heading,
+a.list-group-item.active,
+a.list-group-item.active:hover,
+a.list-group-item.active:focus,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary,
+.btn-primary,
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #df6c4f;
+  border-color: #df6c4f;
+}
+a.list-group-item.active > .badge,
+.nav-pills > .active > a > .badge,
+.text-primary,
+.btn-primary .badge,
+.btn-link {
+  color: #df6c4f;
+}
+.panel-primary,
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active,
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  border-color: #df6c4f;
+}
+.panel-primary > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #df6c4f;
+}
+.panel-primary > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #df6c4f;
+}
+@media (min-width: 768px) {
+  .navbar-inverse .navbar-nav > li > a.active::after {
+    border-bottom-color: #df6c4f;
+  }
+}
+@media (min-width: 768px) {
+  .filter-tabs li:hover {
+    color: #df6c4f;
+  }
+  .navbar-inverse .navbar-nav > li.active > a::after {
+    border-bottom-color: #df6c4f;
+  }
+}

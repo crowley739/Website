@@ -1,0 +1,1 @@
+This folder contains all plugins which are used in the Influence theme.

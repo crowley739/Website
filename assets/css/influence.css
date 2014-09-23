@@ -869,10 +869,10 @@ textarea.form-control {
 
 @media (min-width: 1920px) {
     .bg-1 {
-        background: url("../img/F0490.jpg");
+        background: url("../img/Drawing.jpg");
     }
     .bg-2 {
-        background: url("../img/New_York-On_the_rock-Empire_State_Building.jpg");
+        background: url("../img/ReductionGear.jpg");
     }
     .bg-3 {
         background: url("../img/581f45e_1.jpg");
@@ -886,10 +886,10 @@ textarea.form-control {
 }
 @media (max-width: 1920px) {
     .bg-1 {
-        background: url("../img/1920w/F0490.jpg");
+        background: url("../img/1920w/Drawing.jpg");
     }
     .bg-2 {
-        background: url("../img/1920w/New_York-On_the_rock-Empire_State_Building.jpg");
+        background: url("../img/1920w/ReductionGear.jpg");
     }
     .bg-3 {
         background: url("../img/1920w/581f45e_1.jpg");
@@ -1576,18 +1576,17 @@ i.slidedown {
 .navbar-inverse .navbar-nav > li.active > a:hover,
 .navbar-inverse .navbar-nav > li.active > a {
     color: #fff;
+
 }
-@media (min-width: 768px) {
-    .navbar-inverse .navbar-nav > li.active > a:: after {
-        content: "";
-        position: absolute;
-        width: 50%;
-        border-bottom: 2px solid #1a99aa;
-        padding-top: 5px;
-        display: block;
-        margin-left: calc(-50% / 2);
-        left: 50%;
-    }
+@media(min-width:768px){
+    .navbar-inverse .navbar-nav>li.active>a::after{
+        content:"";
+        position:absolute;
+        width:50%;
+        border-bottom:2px solid #1a99aa;
+        padding-top:5px;
+        display:block;
+        margin-left:calc(-50% / 2);left:50%}
 }
 .navbar-brand {
     float: left;

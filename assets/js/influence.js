@@ -181,7 +181,7 @@ jQuery('#aboutus-slideshow').slippry({
 $('#map').initMap({
     markers: {
         marker1: {
-            position: [50.0858402, 14.4203916, 17]
+            position: [39.837615,-105.082474, 17]
         }
     },
     options: {
@@ -189,7 +189,7 @@ $('#map').initMap({
         scrollwheel: false
     },
     type: 'roadmap',
-    center: [50.0858402, 14.4203916]
+    center: [39.837615,-105.082474]
 });
 
 /* Smooth scrolling */

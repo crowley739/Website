@@ -869,13 +869,13 @@ textarea.form-control {
 
 @media (min-width: 1920px) {
     .bg-1 {
-        background: url("../img/Drawing.jpg");
+        background: url("../img/bg/Drawing.jpg");
     }
     .bg-2 {
-        background: url("../img/ReductionGear.jpg");
+        background: url("../img/bg/ReductionGear.jpg");
     }
     .bg-3 {
-        background: url("../img/581f45e_1.jpg");
+        background: url("../img/bg/Hands.jpg");
     }
     .bg-4 {
         background: url("../img/b4db71.jpg");
@@ -892,7 +892,7 @@ textarea.form-control {
         background: url("../img/1920w/ReductionGear.jpg");
     }
     .bg-3 {
-        background: url("../img/1920w/581f45e_1.jpg");
+        background: url("../img/1920w/Hands.jpg");
     }
     .bg-4 {
         background: url("../img/1920w/b4db71.jpg");

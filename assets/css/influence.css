@@ -102,7 +102,7 @@
     letter-spacing: 2px;
     margin-bottom: 40px;
     text-transform: uppercase;
-    color: #777;
+    color: #1a99aa;
     font-size: 36px;
 }
 .lg-title-border::after {
@@ -177,7 +177,7 @@
 
 .text-block {
     font-size: 16px;
-    color: #777;
+
     line-height: 25px;
 }
 .text-block-v1 {
@@ -869,13 +869,13 @@ textarea.form-control {
 
 @media (min-width: 1920px) {
     .bg-1 {
-        background: url("../img/bg/Drawing.jpg");
+        background: url("../img/bg/WelcomeProtist.jpg");
     }
     .bg-2 {
-        background: url("../img/bg/ReductionGear.jpg");
+        background: url("../img/bg/WelcomeProtist.jpg");
     }
     .bg-3 {
-        background: url("../img/bg/chalkboard.jpg");
+        background: url("../img/bg/WelcomeProtist.jpg");
     }
     .bg-4 {
         background: url("../img/b4db71.jpg");
@@ -886,13 +886,13 @@ textarea.form-control {
 }
 @media (max-width: 1920px) {
     .bg-1 {
-        background: url("../img/1920w/Drawing.jpg");
+        background: url("../img/bg/WelcomeProtist.jpg");
     }
     .bg-2 {
-        background: url("../img/1920w/ReductionGear.jpg");
+        background: url("../img/bg/WelcomeProtist.jpg");
     }
     .bg-3 {
-        background: url("../img/1920w/chalkboard.jpg");
+        background: url("../img/bg/WelcomeProtist.jpg");
     }
     .bg-4 {
         background: url("../img/1920w/b4db71.jpg");
